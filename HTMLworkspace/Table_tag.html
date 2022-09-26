@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8" />
+    <title>기본 테이블 만들가</title>
+  </head>
+  <body>
+    <h3>기본 구조를 가진 표</h3>
+    <hr />
+    <table border="1">
+      <!-- 표를 만들기위한 블록 선언, 표 테두리는 1픽셀 -->
+      <caption>
+        <!-- 표 제목 -->
+        2017년 1학기 성적
+      </caption>
+      <thead>
+        <!-- 헤딩 셀 그룹 -->
+        <tr>
+          <!-- tr = 해당 그룹의 행, th = 행의 원소 -->
+          <th>이름</th>
+          <th>HTML</th>
+          <th>CSS</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <!-- 바닥 셀 그룹 -->
+        <tr>
+          <th>합</th>
+          <th>225</th>
+          <th>230</th>
+        </tr>
+      </tfoot>
+      <tbody>
+        <!-- 데이터 셀 그룹 -->
+        <tr>
+          <th>황기태</th>
+          <th>80</th>
+          <th>70</th>
+        </tr>
+        <tr>
+          <th>이재문</th>
+          <th>95</th>
+          <th>99</th>
+        </tr>
+        <tr>
+          <th>이병은</th>
+          <th>40</th>
+          <th>61</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
