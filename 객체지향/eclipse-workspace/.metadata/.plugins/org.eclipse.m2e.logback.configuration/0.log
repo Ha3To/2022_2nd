@@ -13,3 +13,8 @@
 2022-09-22 01:28:26,030 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-09-22 13:24:07,018 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-09-22 20:39:02,229 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-27 11:31:38,892 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-27 20:18:41,358 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-27 20:58:16,347 [Worker-32: Auto share git projects] WARN  org.eclipse.jgit.util.FS_POSIX - Exception caught during execution of command '[bash, --login, -c, which git]' in '/Users/limtaeho', return code '127', error message '/Users/limtaeho/.bash_profile: line 2: ecport: command not found
+bash: which: command not found
+'
