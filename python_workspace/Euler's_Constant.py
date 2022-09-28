@@ -4,7 +4,7 @@ def fact(n):
 		f = f * i
 	return f
 
-def EN(n):
+def find_num1(n):
 	if n == 1:
 		return 1
 	
@@ -14,7 +14,7 @@ def EN(n):
 	return result
 
 
-def EN2(n):
+def find_num2(n):
 	if n == 1:
 		return 1
 	
@@ -25,5 +25,5 @@ def EN2(n):
 		total = total + temp
 	return total
 	
-print(EN(10000))
-print(EN2(10000))
+print(find_num1(1000))
+print(find_num2(1000))
