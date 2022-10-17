@@ -35,3 +35,15 @@ bash: which: command not found
 bash: which: command not found
 '
 2022-10-12 23:36:11,952 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-14 09:29:45,703 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-14 09:29:45,781 [Worker-3: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - Exception caught during execution of command '[bash, --login, -c, which git]' in '/Users/limtaeho', return code '127', error message '/Users/limtaeho/.bash_profile: line 2: ecport: command not found
+bash: which: command not found
+'
+2022-10-15 02:34:45,643 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-15 02:34:45,712 [Worker-9: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - Exception caught during execution of command '[bash, --login, -c, which git]' in '/Users/limtaeho', return code '127', error message '/Users/limtaeho/.bash_profile: line 2: ecport: command not found
+bash: which: command not found
+'
+2022-10-16 23:49:59,201 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-16 23:49:59,286 [Worker-3: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_POSIX - Exception caught during execution of command '[bash, --login, -c, which git]' in '/Users/limtaeho', return code '127', error message '/Users/limtaeho/.bash_profile: line 2: ecport: command not found
+bash: which: command not found
+'
