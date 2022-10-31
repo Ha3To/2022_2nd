@@ -15,7 +15,7 @@ public class RockPaperScissors {
 		int computer = ran.nextInt(3);
 		
 		while(user == computer) {
-			System.out.println("비겼습니다. 가위(0), 바위(1), 보(2): ");
+			System.out.print("비겼습니다. 가위(0), 바위(1), 보(2): ");
 			user = sc.nextInt();
 			computer = ran.nextInt(3);
 		}

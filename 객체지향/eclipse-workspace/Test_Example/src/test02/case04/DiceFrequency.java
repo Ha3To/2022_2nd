@@ -42,7 +42,7 @@ public class DiceFrequency {
 		System.out.println("============");
 		
 		for(int i = 0; i < 6; i++) {
-			System.out.println(dice[i][0] + "\t" + dice[i][1]);
+			System.out.println(" " + (i + 1) + "\t" + dice[i][1]);
 		}
 		
 	}
