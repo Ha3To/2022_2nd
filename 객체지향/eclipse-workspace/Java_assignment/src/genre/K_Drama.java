@@ -38,9 +38,6 @@ public class K_Drama {
 		OTT.add("스위트 홈");
 		OTT.add("옷소매 붉은 끝동");
 		
-		int size = drama.size();
-		int size2 = OTT.size();
-		
 		System.out.println("<지상파(공중파)등을 통해 방영되어 해외로 수출된 드라마>");
 		for(int i=1; i<drama.size(); i++) {
 			String str = drama.get(i);
