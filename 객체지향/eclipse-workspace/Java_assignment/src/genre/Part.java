@@ -1,5 +1,6 @@
 package genre;
 
+//열거
 public enum Part {
 	MOVIE,
 	MUSIC,

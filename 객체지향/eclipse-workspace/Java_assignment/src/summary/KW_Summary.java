@@ -12,7 +12,8 @@ public class KW_Summary {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-
+		
+		//파일 입출력을통해 요약본 만들기
 		BufferedOutputStream bs = null;
 		try {
 			bs = new BufferedOutputStream (new FileOutputStream("/Users/limtaeho/Documents/2학년_2학기/객체지향/eclipse-workspace/KoreaWave_Summary.txt"));
@@ -66,6 +67,7 @@ public class KW_Summary {
 		}finally {
 			bs.close();
 		}
+		//txt파일로 만들어진 요약본 불러오기
 		String read = Files.readString(Paths.get("/Users/limtaeho/Documents/2학년_2학기/객체지향/eclipse-workspace/KoreaWave_Summary.txt"));
 		System.out.println(read);
 	}

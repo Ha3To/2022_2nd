@@ -1,0 +1,68 @@
+#topMenu {
+  height: 30px;
+  width: 850px;
+}
+#topMenu ul li {
+  list-style: none;
+  color: white;
+  background-color: rgb(255, 165, 86);
+  float: left;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+#topMenu .menuLink {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 190px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+  margin-left: auto;
+  margin-right: auto;
+}
+#topMenu .menuLink:hover {
+  color: red;
+  background-color: #4d4d4d;
+}
+h1 .title {
+  text-decoration-line: none;
+  font-size: 36px;
+  color: rgb(231, 76, 60);
+}
+#wrap {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+#flag img {
+  vertical-align: middle;
+}
+#text {
+  color: rgb(241, 196, 15);
+  transform: translateY(-80%);
+  font-size: 36px;
+  text-align: center;
+  line-height: 10px;
+}
+button {
+  margin-bottom: 10px;
+}
+.w-btn {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.w-btn-indigo {
+  background-color: aliceblue;
+  color: #1e6b7b;
+}

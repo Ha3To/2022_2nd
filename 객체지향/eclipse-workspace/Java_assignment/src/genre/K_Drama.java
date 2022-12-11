@@ -7,6 +7,7 @@ public class K_Drama {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//컬렉션 프레임워크(list)를 사용하여 K-드라마 소개
 		List<String> drama = new ArrayList<String>();
 		List<String> OTT = new ArrayList<String>();
 		

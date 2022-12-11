@@ -2,6 +2,7 @@ package contry;
 
 public class NA implements Continent{
 	
+	//구현 메소드
 	@Override
 	public void nation() {
 		System.out.println("<북미>");

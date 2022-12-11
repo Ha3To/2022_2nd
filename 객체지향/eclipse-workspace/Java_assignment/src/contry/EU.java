@@ -1,7 +1,7 @@
 package contry;
 
 public class EU implements Continent{
-	
+	//구현 메소
 	@Override
 	public void nation() {
 		System.out.println("<유럽>");

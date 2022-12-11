@@ -6,6 +6,8 @@ public class KW_genre {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//참조타입(배열)을 이용하여 영화 및 감독 소개
 		Genre[] movie = new Genre[6];
 		
 		movie[0] = new Genre("기생충(2019)", "봉준호");
@@ -21,6 +23,7 @@ public class KW_genre {
 			movie[i].showGenreInfo();
 		}
 		
+		//참조타입(배열)을 이용하여 드라마 및 주연 소개
 		Genre[] drama = new Genre[7];
 		
 		drama[0] = new Genre("커피프린스 1호점", "공유");
@@ -37,6 +40,7 @@ public class KW_genre {
 			drama[i].showGenreInfo();
 		}
 		
+		//참조타입(열거)을 이용하여 분야별 대표격인 작품 혹은 인물 소개
 		Part part = null;
 		String fr = null;
 		

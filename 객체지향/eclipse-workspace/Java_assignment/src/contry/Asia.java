@@ -2,6 +2,7 @@ package contry;
 
 public class Asia implements Continent{
 	
+	//구현메소드
 	@Override
 	public void nation() {
 		System.out.println("<아시아>");
