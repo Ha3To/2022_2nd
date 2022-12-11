@@ -1,7 +1,5 @@
 package genre;
 
-import genre.Part;
-
 public class KW_genre {
 
 	public static void main(String[] args) {
